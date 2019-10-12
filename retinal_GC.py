@@ -165,15 +165,3 @@ class RGC(object):
 		self.stim.amp2 = voltage
 		self.stim.dur2 = duration
 		self.stim.amp3 =  self.stim.dur3 = 0"""
-
-cells = []
-cells.append(RGC())
-"""
-for i in range(10):
-	for j in range(10):
-		cells.append(RGC((20*i,20*j,0)))
-"""
-s=h.Shape()
-s.show(0)	
-
-#input("oui")
