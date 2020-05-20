@@ -104,19 +104,19 @@ class RGC(object):
 		    seg.hh.gnabar = 0.150 	# Sodium conductance in S/cm2
 		    seg.hh.gkbar = 0.018  		# Potassium conductance in S/cm2
 		    seg.hh.gl = 0.00012   		# Leak conductance in S/cm2
-		    seg.hh.el = -65	     	# Reversal potential in mV    ???
+		    seg.hh.el = -65	     	# Reversal potential in mV    
 		self.myelin1.insert('hh')
 		for seg in self.myelin1:
 		    seg.hh.gnabar = 0.070 	# Sodium conductance in S/cm2
 		    seg.hh.gkbar = 0.018  	# Potassium conductance in S/cm2
 		    seg.hh.gl = 0.2   	# Leak conductance in S/cm2 
-		    seg.hh.el = -65     # Reversal potential in mV    ???
+		    seg.hh.el = -65     # Reversal potential in mV    
 		self.myelin2.insert('hh')
 		for seg in self.myelin2:
 		    seg.hh.gnabar = 0.070 	# Sodium conductance in S/cm2
 		    seg.hh.gkbar = 0.018  	# Potassium conductance in S/cm2
 		    seg.hh.gl = 0.2   	# Leak conductance in S/cm2 
-		    seg.hh.el = -65     # Reversal potential in mV    ???
+		    seg.hh.el = -65     # Reversal potential in mV    
 		self.ranvier.insert('hh')
 		for seg in self.ranvier:
 		    seg.hh.gnabar = 0.400 	# Sodium conductance in S/cm2
